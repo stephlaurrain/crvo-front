@@ -1,0 +1,14 @@
+    frontend_crvo_devenv_img:        
+        build: ./docker/build/
+        ports:            
+            - "3000:3000"       
+        volumes:              
+        - ./src:/root/frontend 
+        - ./docker/build/install:/root/install
+        container_name: frontend_crvo_devenv_ctn
+
+
+
+
+
+
