@@ -3,7 +3,8 @@
         ports:            
             - "3000:3000"       
         volumes:              
-        - ./src:/root/frontend 
+        - ./src:/root/frontend
+        - ./react-mindmap:/root/mindmap 
         - ./docker/build/install:/root/install
         container_name: frontend_crvo_devenv_ctn
 

@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from '%PUBLIC_URL%/public/img/logo.svg';
+import Banner from './Banner'
+// import './App.css';
 
 function App() {
   return (

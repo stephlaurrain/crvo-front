@@ -1,0 +1,15 @@
+.main-title {
+    color: black;    
+    border: solid 3px black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    margin:auto;
+    background-color: #e0e0e0;
+}
+
+.logo {
+    padding : 10px; 
+}

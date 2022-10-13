@@ -1,3 +1,4 @@
 docker/build/install/node-v16.18.0-linux-x64.tar.xz
 src/node_modules
 src/package-lock.json
+others
